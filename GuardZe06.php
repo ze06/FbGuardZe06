@@ -1,15 +1,24 @@
 <?php
-// geci return (csak a consolehez)
+// Warna Terminal
 $biru = "\e[34m";
 $kuning = "\e[33m";
 $cyan = "\e[96m";
 $magenta = "\e[35m";
 $hijau = "\e[92m";
 $merah = "\e[91m";
-echo "$hijau  ×============================================×\n";
-echo "$hijau  [  José Fernando Ramos da Nóbrega:  : ze06                  ]\n";
-echo "$hijau  ×============================================ï¿½\n\n";
-echo "$input $magenta FB ACCOUNT GUARD TESO ERTED>> : ";
+echo "$cyan + //////////////////////////////+\n";
+echo "$cyan ___           _     _
+|_ _|_ __  ___(_) __| | ___
+ | || '_ \/ __| |/ _` |/ _ \
+ | || | | \__ \ | (_| |  __/
+|___|_| |_|___/_|\__,_|\___|\n";
+echo "_   _                 _
+| | | | ___  __ _ _ __| |_ ____
+| |_| |/ _ \/ _` | '__| __|_  /
+|  _  |  __/ (_| | |  | |_ / /
+|_| |_|\___|\__,_|_|   \__/___|\n\n";
+echo "+ //////////////////////////////+\n";
+echo "$Input FB ACCOUNT GUARD TESO ERTED>> : ";
 $token= trim(fgets(STDIN));
 $md5 = md5(time());
 $hash = substr($md5, 0, 8)."-".substr($md5, 8, 4)."-".substr($md5, 12, 4)."-".substr($md5, 16, 4)."-".substr($md5, 20, 12);
@@ -43,6 +52,6 @@ if($me && $me->id) {
         "access_token" => $token
     )));
     if($hajar->data->is_shielded_set->is_shielded) echo "$cyan Status ==> $hijau Siker, ellenőrizd fb-profilod";
-    else "fuck it :( GECI NÉZD MEG A FASZBUK TOKENED";
+else "fuck it :( GECI NÉZD MEG A F
 }
 ?>
