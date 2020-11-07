@@ -44,3 +44,5 @@ $hajar = json_decode(curl("https://graph.facebook.com/graphql", array(
 )));
 if($hajar->data->is_shielded_set->is_shielded) echo "$cyan Status ==> $hijau Siker, ellenőrizd fb-profilod";
 else "fuck it :( GECI NÉZD MEG A F
+
+)))
