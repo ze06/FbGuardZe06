@@ -8,8 +8,8 @@ $ pkg install php
 
 $ pkg install git
 
-$ git clone https://github.com/ze06/FbGuaru-
+$ git clone https://github.com/ze06/FbGuardZe06
 
-$ cd FbGuaru-
+$ cd FbGuardZe06
 
 $ php GuardZe06.php
